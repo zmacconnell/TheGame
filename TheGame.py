@@ -14,8 +14,18 @@ while True:
                 print("You kiss him on the mouth and you like it. He does not.")
                 break
             elif option_two == "2":
-                print("You whip out the M16 laying on his desk and pump him full of lead and then you shoot him. You find his ID in his pocket and realize he was running for president. Now what do you do? \n1. Become president \n2. Turn him into a puppet and run as a puppet \n3. Tell his wife\n")
-                break
+                option_three = input("You whip out the M16 laying on his desk and pump him full of lead and then you shoot him. You find his ID in his pocket and realize he was running for president. Now what do you do? \n1. BECOME (president) \n2. TRANSFORM HIM (into a puppet and run as a puppet) \n3. TELL (his wife)\n")
+                if option_three == "1":
+                    print("BECOME PRESIDENT")
+                    break
+                elif option_three == "2":
+                    print("PUPPET")
+                    break
+                elif option_three == "3":
+                    print(f"You approach his home and knock on the door—his wife answers. You get cold feet right before telling her the truth and inform her that her husband was assassinated by some mysterious man. She breaks down immediately. You go to comfort her and you hug her. She feels relieved. You visit her often to make sure that shes recovering well. You even attend the funeral of her husband. Eventually, as the grief passes, you both feel the sparks of something more as you both grow closer. You both fall madly in love and even get married. Her family accepts you as apart of their family now. You finally feel happy for the first time in a long time. You eventually retire from work and live a peaceful life with your wife. \nOne day, you decide to take a trip to the local spa for some relaxation. Your wife had some errands to run and insisted that you go with out her. As you relax in a hot tub, a man approaches you. He looks pretty familiar. “Do you remember me {name}? If not this should jog your memory.” He takes off his shirt revealing a hole 1 foot in diameter in his chest. Suddenly the memories come flooding back to you. Its the man you assassinated! “I thought you were dead” you exclaimed. “Me too” he replies. He pulls an M16 out from under his towel and points it at you. He says “Hasta lá vista, baby.” You cringe.")
+                    break
+                else:
+                    print(f"{option_three} is not a valid option.\n")
             else:
                 print(f"{option_two} is not a valid option.\n")
             break
