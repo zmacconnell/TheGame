@@ -4,8 +4,8 @@ while True:
     while True:
         name = name.capitalize()
         name_uppercase = name.upper()
-        if name_uppercase.find("TURNER") != -1:
-            break
+        while name_uppercase.find("TURNER") != -1:
+            print("You're gay!")
         
         option_one = input(f"{name}, you were a drug dealer and are now looking for a better life. Due to a lack of experience you opt to put 'involved in production and distribution of leisure material' on your resume. While interviewing for the job, the interviewer asks what you meant by that. What do you do? \n1. BE HONEST (and explain what it means) \n2. LIE (through the skin of your teeth) \n3. PISS (on their desk)\n")
         if option_one == "1":
