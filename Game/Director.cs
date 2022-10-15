@@ -28,11 +28,16 @@ namespace QuestionGame
 
         private void DoUpdates()
         {
-            null;
+            Console.WriteLine("Game over.");
         }
-        private void DoOutputs();
+        private void DoOutputs()
         {
-            null;
+            Console.Write("Play again (y/n): ");
+            string _playAgain = Console.ReadLine();
+            if (_playAgain == "n")
+            {
+                _isPlaying = false;
+            }
         }
     }
 }
